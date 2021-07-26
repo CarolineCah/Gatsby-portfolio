@@ -39,16 +39,6 @@ export class Sidebar extends Component {
           <span className="d-block d-lg-none">
             {config.firstName} {config.lastName}
           </span>
-          <span className="d-none d-lg-block" height="100%" width="100%">
-            <img
-              className="img-fluid img-profile mx-auto mb-2"
-              src={profilepicture}
-              alt=""
-              width="100"
-              height="100"        
-            />
-
-          </span>
         </a>
         <button
           className={`navbar-toggler navbar-toggler-right ${

@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
+import profilepicture from '../assets/images/profilepicture.jpg';
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -15,9 +16,21 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h1 className="mb-0">
+          <span className="d-none d-lg-block" height="100%" width="100%">
+            <img
+              className="img-fluid img-profile mx-auto mb-2"
+              src={profilepicture}
+              alt=""
+              width="100"
+              height="100"        
+            />
+
+          </span>
+            
             {config.firstName}
             <span className="text-primary">{config.lastName}</span>
           </h1>
+          
           <div className="subheading mb-5">
             {config.address} · {config.phone} ·
             <a href={`mailto:${config.email}`}>{config.email}</a>
@@ -90,7 +103,7 @@ const IndexPage = () => (
 Business Intelligence: SAP Business Objects, Tableau Software</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">August 2017 - June 2020</span>
             </div>
           </div>
 
@@ -100,7 +113,7 @@ Business Intelligence: SAP Business Objects, Tableau Software</div>
               <div className="subheading mb-3">Social Science with Behavioural Science Programme</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">August 2011 - June 2014</span>
             </div>
           </div>
         </div>
