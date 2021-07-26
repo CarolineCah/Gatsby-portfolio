@@ -29,5 +29,5 @@ module.exports = {
     },
   ],
   email: 'caroline.cah.develops@gmail.com',
-  address: 'Gothenburg central',
+  address: 'Gothenburg',
 };

@@ -32,11 +32,11 @@ const IndexPage = () => (
           </h1>
           
           <div className="subheading mb-5">
-            {config.address} · {config.phone} ·
+            {config.address} · {config.phone}
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am a passionaate software developer working in levaraging agile frameworks. Iterative approaches to corporate strategy foster collaborative thinking to produce the best overall value proposition in software.
+            I am a passionated software developer working in levaraging agile frameworks. Iterative approaches to corporate strategy foster collaborative thinking to produce the best overall value proposition in software.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -65,12 +65,10 @@ const IndexPage = () => (
               <h3 className="mb-0">Junior Web Developer</h3>
               <div className="subheading mb-3">Nexer Tech Talent, consultant at Polestar</div>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+                As a consultant at Nexer Tech Talent I produce high quality increments each sprint. 
+                I develop for Polestar.com site which is all about Polestars branding and for customers to better understand Polestars Car models, news, Job Opportunities, Support forms, presenting the different Polestar spaces and displaying news.
+                The programme Nexer Tech Talent also includes courses in React, Typescript, Interaction design, Google Analytics, SEO, Scrum aswell as soft skills such as presentation techniques.
+
               </p>
             </div>
             <div className="resume-date text-md-right">
@@ -110,7 +108,7 @@ Business Intelligence: SAP Business Objects, Tableau Software</div>
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
               <h3 className="mb-0">Folkungaskolan High School</h3>
-              <div className="subheading mb-3">Social Science with Behavioural Science Programme</div>
+              <div className="subheading mb-3">Social Science - International/Behavioural Science Programme</div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">August 2011 - June 2014</span>
