@@ -1,8 +1,6 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-
-// import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
 import profilepicture from '../assets/images/profilepicture.jpg';
@@ -65,10 +63,9 @@ const IndexPage = () => (
               <h3 className="mb-0">Junior Web Developer</h3>
               <div className="subheading mb-3">Nexer Tech Talent, consultant at Polestar</div>
               <p>
-                As a consultant at Nexer Tech Talent I produce high quality increments each sprint. 
-                I develop for Polestar.com site which is all about Polestars branding and for customers to better understand Polestars Car models, news, Job Opportunities, Support forms, presenting the different Polestar spaces and displaying news.
-                The programme Nexer Tech Talent also includes courses in React, Typescript, Interaction design, Google Analytics, SEO, Scrum aswell as soft skills such as presentation techniques.
-
+                I am a consultant at Nexer Tech Talent currently working for Polestar as a Web Developer.
+                I develop for <a href="http://polestar.com" alt="">Polestar.com</a>, which is all about Polestars branding aswell as displaying News, Job Opportunities, Support forms and the physical showroms for Polestar.
+                The programme Nexer Tech Talent includes courses in React, Typescript, Interaction design, Google Analytics, SEO, Scrum aswell as Soft skills such as presentation techniques and group dynamics.
               </p>
             </div>
             <div className="resume-date text-md-right">
