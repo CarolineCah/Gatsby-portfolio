@@ -6,8 +6,8 @@
  */
 :root {
   --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
+  --indigo: #FAF0DC;
+  --purple: #FAF0DC;
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
@@ -153,13 +153,13 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #FAF0DC;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #FAF0DC;
   text-decoration: underline;
 }
 
