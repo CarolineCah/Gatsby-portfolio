@@ -2,14 +2,6 @@
   "name": "gatsby-starter-resume",
   "version": "0.0.1",
   "description": "Gatsby.js V2 starter template based on Resume by startbootstrap",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-resume.git"
-  },
-  "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
-  },
   "dependencies": {
     "gatsby": "^2.20.2",
     "gatsby-plugin-manifest": "^2.3.1",
@@ -42,10 +34,5 @@
     "gatsby",
     "gatsby-starter",
     "gatsby-starter-resume"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-resume/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-resume#readme"
+  ]
 }

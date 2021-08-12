@@ -151,10 +151,15 @@ Business Intelligence: SAP Business Objects, Tableau Software</div>
             <li className="list-inline-item">
               <i className="fab fa-ts"></i>
             </li>
+            <div className="subheading mb-3">HTML, CSS, Javscript, React, Node, Npm, Aws and Typescript</div>
           </ul>
 
           <div className="subheading mb-3">Workflow</div>
           <ul className="fa-ul mb-0">
+          <li>
+              <i className="fa-li fa fa-check"></i>
+            Weekly Sprints with release of increments two days before Sprint end. Ensure code quality with code reviews, Quality assurance by user and design tests, code coverage and prevent bugs before release.
+            </li>
             <li>
               <i className="fa-li fa fa-check"></i>
               Web development with Responsive Design
