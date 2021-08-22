@@ -3,7 +3,7 @@ module.exports = {
   manifestName: 'Resume',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#ffff',
+  manifestBackgroundColor: '#ffff' ,
   manifestThemeColor: '#ffff',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/ion.png',
