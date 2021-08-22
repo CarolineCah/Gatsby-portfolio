@@ -3,7 +3,8 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
-import profilepicture from '../assets/images/profilepicture.jpg';
+import AnimationList from '../components/AnimationList';
+import { motion } from 'framer-motion';
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -12,19 +13,10 @@ const IndexPage = () => (
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="about"
       >
+       <motion.div initial="hidden" animate="visible" variants={{hidden: {scale: .8, opacity: 0}, visible: { scale: 1, opacity: 1, transition: {delay: .4}},
+}}>
         <div className="w-100">
           <h1 className="mb-0">
-          <span className="d-none d-lg-block" height="100%" width="100%">
-            <img
-              className="img-fluid img-profile mx-auto mb-2"
-              src={profilepicture}
-              alt=""
-              width="100"
-              height="100"        
-            />
-
-          </span>
-            
             {config.firstName}
             <span className="text-primary">{config.lastName}</span>
           </h1>
@@ -47,6 +39,7 @@ const IndexPage = () => (
             })}
           </div>
         </div>
+        </motion.div>
       </section>
 
       <hr className="m-0" />
@@ -158,7 +151,7 @@ Business Intelligence: SAP Business Objects, Tableau Software</div>
           <ul className="fa-ul mb-0">
           <li>
               <i className="fa-li fa fa-check"></i>
-            Weekly Sprints with release of increments two days before Sprint end. Ensure code quality with code reviews, Quality assurance by user and design tests, code coverage and prevent bugs before release.
+            Weekly Sprints with frequent code reviews, snapshot testing, release of produced increments two days before Sprint end, writing documentation in release notes and lastly Quality Assurance by user and design tests.
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>

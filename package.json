@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Gatsby.js V2 starter template based on Resume by startbootstrap",
   "dependencies": {
+    "framer-motion": "^4.1.17",
     "gatsby": "^2.20.2",
     "gatsby-plugin-manifest": "^2.3.1",
     "gatsby-plugin-offline": "^3.1.0",
