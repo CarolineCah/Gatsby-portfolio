@@ -2,8 +2,10 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
+import Gallery from '../components/Gallery';
 import config from '../../config';
 import { motion } from 'framer-motion';
+import "../assets/styles/styles.css"
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -41,7 +43,9 @@ const IndexPage = () => (
         </motion.div>
       </section>
 
-      <hr className="m-0" />
+        <div className="gallery-container">
+          <Gallery />
+          </div>
 
       <section
         className="resume-section p-3 p-lg-5 d-flex justify-content-center"
