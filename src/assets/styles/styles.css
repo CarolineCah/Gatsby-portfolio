@@ -10,15 +10,30 @@ body1 {
   align-items: center;
 }
 
-.gallery-container {
-  width: 85vw;
-  height: 20vw;
-  padding: 0;
-  margin: 0;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media only screen and (max-device-width: 480px) {
+  .gallery-container {
+    width: 100vw;
+    height: 20vw;
+    padding: 10%;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .gallery-container {
+    width: 85vw;
+    height: 20vw;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .next,

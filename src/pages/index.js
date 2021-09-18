@@ -42,7 +42,8 @@ const IndexPage = () => (
         </div>
         </motion.div>
       </section>
-
+      
+      
         <div className="gallery-container">
           <Gallery />
           </div>
