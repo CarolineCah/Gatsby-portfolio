@@ -57,16 +57,30 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Developer</h3>
-              <div className="subheading mb-3">Nexer Tech Talent, consultant at Polestar</div>
+              <h3 className="mb-0">Software Engineer</h3>
+              <div className="subheading mb-3">Polestar</div>
               <p>
-                I am a consultant at Nexer Tech Talent currently working for Polestar as a Web Developer.
-                I develop for <a href="http://polestar.com" alt="">Polestar.com</a>, which is all about Polestars branding aswell as displaying News, Job Opportunities, Support forms and the physical showroms for Polestar.
-                The programme Nexer Tech Talent includes courses in React, Typescript, Interaction design, Google Analytics, SEO, Scrum aswell as Soft skills such as presentation techniques and group dynamics.
+              I currently work as a Software Engineer at Polestar. I create digital content for <a href="http://polestar.com" alt="" target="_blank">Polestar.com</a> and the shared Headless Content Management System, <a href="https://www.datocms.com/" alt="" target="_blank">DatoCMS.</a>
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2020 - Present</span>
+              <span className="text-primary">November 2021 - Present</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Junior Software Developer</h3>
+              <div className="subheading mb-3">Nexer Tech Talent, consultant at Polestar</div>
+              <p>
+                Consultant at Nexer Tech Talent working for Polestar.
+                I, together with my team, developed Software for <a href="http://polestar.com" alt="" target="_blank">Polestar.com</a>, which is all about Polestars branding aswell as displaying News, Job Opportunities, Support forms and the physical showroms for Polestar.
+                Me and my team also developed for projects that had to do wih Sales tools that creates a better understanding of for example what it means to own an Electric vehicle and emissions compared to petrol and diesel vehicles.
+                The programme Nexer Tech Talent included courses in React, Typescript, Interaction design, Google Analytics, SEO, Scrum aswell as Soft skills such as presentation techniques and group dynamics.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">August 2020 - November 2021</span>
             </div>
           </div>
 
