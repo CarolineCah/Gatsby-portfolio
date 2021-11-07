@@ -27,7 +27,7 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am a passionated software developer working in levaraging agile frameworks. Iterative approaches to corporate strategy foster collaborative thinking to produce the best overall value proposition in software.
+            Hi! I am a passionated Software Engineer based in Gothenburg, Sweden. I believe using iterative approaches in product development promotes collaborative thinking, that helps producing the best value proposition in software.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -46,6 +46,7 @@ const IndexPage = () => (
       
         <div className="gallery-container">
           <Gallery />
+          <spacer></spacer>
           </div>
 
       <section
@@ -60,7 +61,8 @@ const IndexPage = () => (
               <h3 className="mb-0">Software Engineer</h3>
               <div className="subheading mb-3">Polestar</div>
               <p>
-              I currently work as a Software Engineer at Polestar. I create digital content for <a href="http://polestar.com" alt="" target="_blank">Polestar.com</a> and the shared Headless Content Management System, <a href="https://www.datocms.com/" alt="" target="_blank">DatoCMS.</a>
+              Currently work as a Software Engineer at Polestar. I create digital content for <a href="http://polestar.com" alt="" target="_blank">Polestar.com</a> and the shared Headless Content Management System, <a href="https://www.datocms.com/" alt="" target="_blank">DatoCMS. DatoCMS stores all digital content in a single centralized hub, meaning that pictures, text, translations etc can be edited and published immediately. 
+              My work tasks could be anything from improving current features, creating plugins, fixing bugs and improving performance</a>
               </p>
             </div>
             <div className="resume-date text-md-right">
