@@ -43,11 +43,13 @@ const IndexPage = () => (
         </motion.div>
       </section>
       
-      
+      <motion.div initial="hidden" animate="visible" variants={{hidden: {scale: .8, opacity: 0}, visible: { scale: 1, opacity: 1, transition: {delay: .4}},
+}}>
         <div className="gallery-container">
           <Gallery />
           <spacer></spacer>
           </div>
+          </motion.div>
 
       <section
         className="resume-section p-3 p-lg-5 d-flex justify-content-center"
