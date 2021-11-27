@@ -27,7 +27,7 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            Hi! I am a passionated Software Engineer based in Gothenburg, Sweden. I believe using iterative approaches in product development promotes collaborative thinking, that helps producing the best value proposition in software.
+            Hi! I am a passionated Software Engineer based in Gothenburg, Sweden. I believe using iterative approaches in product development promotes collaborative thinking, that helps producing the best value proposition in Software.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -173,7 +173,7 @@ Business Intelligence: SAP Business Objects, Tableau Software</div>
           <ul className="fa-ul mb-0">
           <li>
               <i className="fa-li fa fa-check"></i>
-            Weekly Sprints with frequent code reviews, snapshot testing, release of produced increments two days before Sprint end, writing documentation in release notes and lastly Quality Assurance by user and design tests.
+            Weekly Sprints with frequent code reviews, Unit tests with Jest testing library, release of produced increments two days before Sprint end, writing documentation in release notes and lastly Quality Assurance by user and design tests.
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
@@ -204,7 +204,7 @@ Business Intelligence: SAP Business Objects, Tableau Software</div>
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from being a web developer, I enjoy spending time with my friends and family, cooking, reading and exercising. In the winter, I am an novice skier and an avid gamer.
+            Apart from being a web developer, I enjoy spending time with my friends and visiting my family in Linköping, cooking, reading and exercising. In the winter, I am an novice skier and an avid gamer.
             During the warmer months here in Gothenburg, I enjoy golfing,
             spending time at the coast, and aaalot of fika.
           </p>
@@ -235,7 +235,7 @@ Business Intelligence: SAP Business Objects, Tableau Software</div>
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-             Voted as "Best fadder in Kickoff for Gothenburgs university's IT section"
+             Voted as "Best fadder in Kickoff for Gothenburgs University's IT Section"
             </li>
           </ul>
         </div>
