@@ -16,7 +16,9 @@
     "react-helmet": "^5.2.1",
     "react-images": "^1.1.0",
     "react-scrollspy": "^3.4.2",
-    "smoothscroll-polyfill": "^0.4.4"
+    "smoothscroll-polyfill": "^0.4.4",
+    "styled-components": "^5.3.3",
+    "stylefire": "^7.0.3"
   },
   "scripts": {
     "develop": "gatsby develop",
