@@ -19,7 +19,7 @@ const IndexPage = () => (
           initial="hidden"
           animate="visible"
           variants={{
-            hidden: { scale: 0.8, opacity: 0 },
+            hidden: { scale: 0.9, opacity: 0 },
             visible: { scale: 1, opacity: 1, transition: { delay: 0.4 } },
           }}
         >
@@ -56,8 +56,8 @@ const IndexPage = () => (
         initial="hidden"
         animate="visible"
         variants={{
-          hidden: { scale: 0.8, opacity: 0 },
-          visible: { scale: 1, opacity: 1, transition: { delay: 0.4 } },
+          hidden: { scale: 0.9, opacity: 0 },
+          visible: { scale: 1, opacity: 1, transition: { delay: 0.7 } },
         }}
       >
         <div className="gallery-container">
@@ -282,6 +282,14 @@ const IndexPage = () => (
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
               Javascript - LinkedIn Skill Assessment badge
+            </li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              React - LinkedIn Skill Assessment badge
+            </li>
+            <li>
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              HTML - LinkedIn Skill Assessment badge
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>

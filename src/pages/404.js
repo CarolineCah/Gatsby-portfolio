@@ -11,9 +11,8 @@ const IndexPage = () => (
       >
         <header className="major">
           <h2>
-            Page not found
+            Oops sorry, this is a 404 (page not found) :(
             <br />
-            Not a valid URL
           </h2>
         </header>
       </section>
