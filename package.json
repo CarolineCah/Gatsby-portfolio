@@ -16,7 +16,8 @@
     "react-images": "^1.1.0",
     "react-scrollspy": "^3.4.2",
     "smoothscroll-polyfill": "^0.4.4",
-    "stylefire": "^7.0.3"
+    "stylefire": "^7.0.3",
+    "webpack-dev-server": "^4.7.3"
   },
   "scripts": {
     "develop": "gatsby develop",
@@ -35,7 +36,6 @@
   "keywords": [
     "gatsby",
     "gatsby-starter",
-    "gatsby-starter-resume",
-    "popmotion"
+    "gatsby-starter-resume"
   ]
 }

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { wrap } from 'popmotion';
+import { wrap } from '@popmotion/popcorn';
 import { images } from '../assets/images/image-data';
 
 const variants = {
