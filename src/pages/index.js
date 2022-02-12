@@ -78,19 +78,30 @@ const IndexPage = () => (
               <h3 className="mb-0">Software Engineer</h3>
               <div className="subheading mb-3">Polestar</div>
               <p>
-                Currently work as a Software Engineer at Polestar. I create
-                digital content for{' '}
-                <a href="http://polestar.com" alt="" target="_blank">
+                Currently I work as a Software Engineer at Polestar. I create
+                digital content for
+                <a
+                  href="http://polestar.com"
+                  alt=""
+                  target="_blank"
+                  style={{ padding: '5px' }}
+                >
                   Polestar.com
-                </a>{' '}
-                and the shared Headless Content Management System,{' '}
-                <a href="https://www.datocms.com/" alt="" target="_blank">
-                  DatoCMS. DatoCMS stores all digital content in a single
-                  centralized hub, meaning that pictures, text, translations etc
-                  can be edited and published immediately. My work tasks could
-                  be anything from improving current features, creating plugins,
-                  fixing bugs and improving performance
                 </a>
+                and the shared Headless Content Management System,
+                <a
+                  href="https://www.datocms.com/"
+                  alt=""
+                  target="_blank"
+                  style={{ padding: '3px' }}
+                >
+                  DatoCMS.
+                </a>
+                DatoCMS stores all digital content in a single centralized hub,
+                meaning that pictures, text, translations etc can be edited and
+                published immediately. My work tasks could be anything from
+                improving current features, creating plugins, fixing bugs and
+                improving performance.
               </p>
             </div>
             <div className="resume-date text-md-right">
@@ -205,11 +216,8 @@ const IndexPage = () => (
             <li className="list-inline-item">
               <i className="fab fa-aws"></i>
             </li>
-            <li className="list-inline-item">
-              <i className="fab fa-ts"></i>
-            </li>
             <li className="list-languages">
-              HTML, CSS, Javscript, React, Node, Npm, Aws and Typescript
+              HTML, CSS, Javscript, React, Node, Npm, Aws, C# and Typescript
             </li>
           </ul>
 

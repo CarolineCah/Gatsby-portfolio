@@ -4,10 +4,10 @@
 
 .text-primary {
   color: $gray-800 !important;
-  font-family: 'Abril Fatface', cursive;
-  font-family: 'Libre Baskerville', serif;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Source Serif Pro', serif;
+  font-family: monospace, cursive;
+  font-family: monospace, serif;
+  font-family: 'monospace', sans-serif;
+  font-family: 'ui-monospace', serif;
 }
 
 .list-languages {
@@ -15,21 +15,21 @@
   font-size: 15px;
   list-style-position: inside;   
   list-style-type: disc;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'MonoLisa', monospace;
 }
 
 .mb-5{
-  font-family: 'Abril Fatface', serif;
-  font-family: 'Libre Baskerville', serif;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Source Serif Pro', serif;
+  font-family: sans-serif, serif;
+  font-family: sans-serif, serif;
+  font-family: sans-serif, sans-serif;
+  font-family: sans-serif, serif;
 }
 
 .mb-0{
-  font-family: 'Abril Fatface', serif;
-  font-family: 'Libre Baskerville', serif;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'monospace', serif;
+  font-family: 'monospace', serif;
+  font-family: 'monospace', sans-serif;
+  font-family: 'monospace', serif;
 }
 
 a {

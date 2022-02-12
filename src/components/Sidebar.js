@@ -35,13 +35,12 @@ export class Sidebar extends Component {
         id="sideNav"
       >
         <a className="navbar-brand" href="#page-top">
-          <span className="d-block d-lg-none">
-          </span>
+          <span className="d-block d-lg-none"></span>
         </a>
         <button
           className={`navbar-toggler navbar-toggler-right ${
             isCollapsed ? 'collapsed' : ''
-            }`}
+          }`}
           type="button"
           data-toggle="collapse"
           aria-controls="navbarSupportedContent"
@@ -51,8 +50,10 @@ export class Sidebar extends Component {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`}
-          id="navbarSupportedContent">
+        <div
+          className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`}
+          id="navbarSupportedContent"
+        >
           <Scrollspy
             items={tabs.map(s => s.href)}
             currentClassName="active"
