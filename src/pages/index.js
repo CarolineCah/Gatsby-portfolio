@@ -33,7 +33,7 @@ const IndexPage = () => (
               {config.address} · {config.phone}
               <a href={`mailto:${config.email}`}>{config.email}</a>
             </div>
-            <p className="lead mb-5">
+            <p className="lead mb-5" style={{ fontFamily: 'monospace' }}>
               Hi! I am a Software Engineer based in Gothenburg, Sweden.
               Currently developing websites, applications, plugins and
               occasionally designing tools for Polestars CMS.
@@ -74,39 +74,41 @@ const IndexPage = () => (
           <h2 className="mb-5">Experience</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Software Engineer</h3>
-              <div className="subheading mb-3">Polestar</div>
-              <p>
-                Currently I work as a Software Engineer at Polestar. I create
-                digital content for
-                <a
-                  href="http://polestar.com"
-                  alt=""
-                  target="_blank"
-                  style={{ padding: '5px' }}
-                >
-                  Polestar.com
-                </a>
-                and the shared Headless Content Management System,
-                <a
-                  href="https://www.datocms.com/"
-                  alt=""
-                  target="_blank"
-                  style={{ padding: '3px' }}
-                >
-                  DatoCMS.
-                </a>
-                DatoCMS stores all digital content in a single centralized hub,
-                meaning that pictures, text, translations etc can be edited and
-                published immediately. My work tasks could be anything from
-                improving current features, creating plugins, fixing bugs and
-                improving performance.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">November 2021 - Present</span>
-            </div>
+            <>
+              <div className="resume-content">
+                <h3 className="mb-0">Software Engineer</h3>
+                <div className="subheading mb-3">Polestar</div>
+                <p>
+                  Currently I work as a Software Engineer at Polestar. I create
+                  digital content for
+                  <a
+                    href="http://polestar.com"
+                    alt=""
+                    target="_blank"
+                    style={{ padding: '5px' }}
+                  >
+                    Polestar.com
+                  </a>
+                  and the shared Headless Content Management System,
+                  <a
+                    href="https://www.datocms.com/"
+                    alt=""
+                    target="_blank"
+                    style={{ padding: '3px' }}
+                  >
+                    DatoCMS.
+                  </a>
+                  DatoCMS stores all digital content in a single centralized
+                  hub, meaning that pictures, text, translations etc can be
+                  edited and published immediately. My work tasks could be
+                  anything from improving current features, creating plugins,
+                  fixing bugs and improving performance.
+                </p>
+              </div>
+              <div className="resume-date text-md-right">
+                <span className="text-primary">November 2021 - Present</span>
+              </div>
+            </>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -216,7 +218,7 @@ const IndexPage = () => (
             <li className="list-inline-item">
               <i className="fab fa-aws"></i>
             </li>
-            <li className="list-languages">
+            <li className="list-languages" style={{ fontSize: '15px' }}>
               HTML, CSS, Javscript, React, Node, Npm, Aws, C# and Typescript
             </li>
           </ul>
