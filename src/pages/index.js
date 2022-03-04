@@ -26,7 +26,9 @@ const IndexPage = () => (
           <div className="w-100">
             <h1 className="mb-0">
               {config.firstName}
-              <span className="text-primary">{config.lastName}</span>
+              <span className="mb-0" style={{ paddingLeft: '10px' }}>
+                {config.lastName}
+              </span>
             </h1>
 
             <div className="subheading mb-5">
@@ -162,7 +164,9 @@ const IndexPage = () => (
                 Information systems - Programming in Java, SQL, Digitalization,
                 Digital innovation, IT Governance, Interaction design, State of
                 the art research in informatics, Enterprise Systems. Business
-                Intelligence: SAP Business Objects, Tableau Software
+                Intelligence: SAP Business Objects, Tableau Software. I,
+                together with two classmates, wrote a bachelor's thesis about
+                Scrum's effects on productivity in Software development.
               </div>
             </div>
             <div className="resume-date text-md-right">
