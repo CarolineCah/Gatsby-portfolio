@@ -265,17 +265,17 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from being a web developer, I enjoy spending time with my
-            friends and visiting my family in Linköping, cooking, reading and
+            Apart from being a developer, I enjoy spending time with my friends
+            and visiting my family in Linköping, cooking, reading and
             exercising. In the winter, I am an novice skier and an avid gamer.
             During the warmer months here in Gothenburg, I enjoy golfing,
             spending time at the coast, and aaalot of fika.
           </p>
           <p className="mb-0">
-            When indoors, I follow a number of sci-fi and fantasy genre movies
-            and television shows and I spend a large amount of my free time
-            exploring the latest technology advancements in the front-end web
-            development world.
+            When indoors, I enjoy reading, watching documenteries and movies and
+            I spend a large amount of my free time exploring the latest
+            technology advancements in the web and application development
+            world.
           </p>
         </div>
       </section>
