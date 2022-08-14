@@ -36,9 +36,9 @@ const IndexPage = () => (
               <a href={`mailto:${config.email}`}>{config.email}</a>
             </div>
             <p className="lead mb-5" style={{ fontFamily: 'monospace' }}>
-              Hi! I am a Software Engineer based in Gothenburg, Sweden.
-              Currently developing websites, applications, plugins and
-              occasionally designing tools for Polestars CMS.
+              Hello there. I am a Software Engineer based in Gothenburg, Sweden.
+              Currently developing websites, applications, plugins and tools for
+              Polestars CMS.
             </p>
             <div className="social-icons">
               {config.socialLinks.map(social => {
@@ -81,17 +81,9 @@ const IndexPage = () => (
                 <h3 className="mb-0">Software Engineer</h3>
                 <div className="subheading mb-3">Polestar</div>
                 <p>
-                  Currently I work as a Software Engineer at Polestar. I create
-                  digital content for
-                  <a
-                    href="http://polestar.com"
-                    alt=""
-                    target="_blank"
-                    style={{ padding: '5px' }}
-                  >
-                    Polestar.com
-                  </a>
-                  and the shared Headless Content Management System,
+                  Currently I work as a Software Engineer at Polestar. I develop
+                  features for plugins in the Headless Content Management
+                  System,
                   <a
                     href="https://www.datocms.com/"
                     alt=""
@@ -101,10 +93,20 @@ const IndexPage = () => (
                     DatoCMS.
                   </a>
                   DatoCMS stores all digital content in a single centralized
-                  hub, meaning that pictures, text, translations etc can be
-                  edited and published immediately. My work tasks could be
-                  anything from improving current features, creating plugins,
-                  fixing bugs and improving performance.
+                  hub, i.e pictures, text, can be edited and deployed
+                  collaboratively in real time. My tasks could be anything from
+                  improving current features, creating plugins, fixing bugs and
+                  improving performance. Prior to that I was a Software Engineer
+                  for {''}
+                  <a href="http://polestar.com" alt="" target="_blank">
+                    Polestar.com
+                  </a>
+                  . In this project I was a frontend developer creating for
+                  example sections, forms and data driven features. In this team
+                  I enjoyed working with Designers, Business Analysts, a Scrum
+                  Master and of course other developers. We had daily stand ups,
+                  weekly sprints, released features once a week and had weekly
+                  retros and demos.
                 </p>
               </div>
               <div className="resume-date text-md-right">
@@ -115,7 +117,7 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Software Developer</h3>
+              <h3 className="mb-0">Software Developer</h3>
               <div className="subheading mb-3">
                 Nexer Tech Talent, consultant at Polestar
               </div>
