@@ -10,14 +10,13 @@ body1 {
   align-items: center;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 390px) {
   .gallery-container {
     width: 100vw;
     height: 20vw;
     padding: 10%;
     padding-bottom: 20px;
     margin: 0;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,10 +69,10 @@ img {
   max-width: 100vw;
 }
 @media only screen and (max-device-width: 480px) {
-img {
-  position: absolute;
-  max-width: 80vw;
-}
+  img {
+    position: absolute;
+    max-width: 80vw;
+  }
 }
 
 .refresh {
